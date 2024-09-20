@@ -1,3 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Add this to your CSS or Tailwind config */
+.transition-all {
+  transition: all 0.2s ease-in-out;
+}
+
+.hover-bg-change:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+
+
+/* Your custom styles here */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+body {
+  font-family: 'Lobster', cursive;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
